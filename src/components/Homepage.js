@@ -8,7 +8,8 @@ const Homepage = () => {
 
     return (
         <HomepageContainer>
-            <ProfilePicture><img src={MePic} alt='Thomas Barrett' /></ProfilePicture>
+            <h1>Thomas Barrett</h1>
+            <ProfilePicture src={MePic} alt='Thomas Barrett' />
             
         </HomepageContainer>
     )
