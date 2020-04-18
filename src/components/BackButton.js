@@ -1,6 +1,6 @@
 import React from 'react'
 
-import arrow from '../images/arrowLeft.svg'
+import arrow from '../images/arrowLeft.png'
 import { BackButtonContainer } from '../style/backButton-styles'
 
 const BackButton = () => {
