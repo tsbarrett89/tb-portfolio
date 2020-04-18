@@ -14,10 +14,10 @@ function App() {
   return (
     <AppContainer>
       <Route exact path='/' component={Homepage} />
-      <Route path='/about' />
-      <Route path='/skills' />
-      <Route path='/projects' />
-      <Route path='/contact' />
+      <Route path='/about' component={AboutPage} />
+      <Route path='/skills' component={SkillsPage} />
+      <Route path='/projects' component={ProjectsPage} />
+      <Route path='/contact' component={ContactPage} />
       
       <Navbar />
     </AppContainer>
