@@ -3,8 +3,12 @@ import { Route } from 'react-router';
 
 import { AppContainer } from './style/app-styles';
 
-import Homepage from './components/Homepage';
 import Navbar from './components/Navbar';
+import Homepage from './components/Homepage';
+import AboutPage from './components/AboutPage';
+import SkillsPage from './components/SkillsPage';
+import ProjectsPage from './components/ProjectsPage';
+import ContactPage from './components/ContactPage';
 
 function App() {
   return (
