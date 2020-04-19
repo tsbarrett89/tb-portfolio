@@ -7,7 +7,7 @@ const BackButton = props => {
     const hideButton = () => props.setShowBack(false)
 
     return (
-        <BackButtonContainer onClick={hideButton}>
+        <BackButtonContainer to='/' onClick={hideButton}>
             <img src={arrow} />
         </BackButtonContainer>
     )
