@@ -3,7 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 import { NavContainer } from '../style/navbar-styles';
 
-const Navbar = () => {
+const Navbar = ({ setShowBack }) => {
+    const showBack = () => setShowBack(true)
 
     return (
         <NavContainer>
