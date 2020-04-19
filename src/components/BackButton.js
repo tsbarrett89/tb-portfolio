@@ -4,7 +4,7 @@ import arrow from '../images/arrowLeft.png'
 import { BackButtonContainer } from '../style/backButton-styles'
 
 const BackButton = props => {
-    const hideButton = e => props.setShowBack(false)
+    const hideButton = () => props.setShowBack(false)
 
     return (
         <BackButtonContainer onClick={hideButton}>
