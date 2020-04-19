@@ -8,10 +8,10 @@ const Navbar = ({ setShowBack }) => {
 
     return (
         <NavContainer>
-            <NavLink to='/about'>About</NavLink>
-            <NavLink to='/skills'>Skills</NavLink>
-            <NavLink to='/projects'>Projects</NavLink>
-            <NavLink to='/contact'>Contact</NavLink>
+            <NavLink to='/about' onClick={showBack}>About</NavLink>
+            <NavLink to='/skills' onClick={showBack}>Skills</NavLink>
+            <NavLink to='/projects' onClick={showBack}>Projects</NavLink>
+            <NavLink to='/contact' onClick={showBack}>Contact</NavLink>
         </NavContainer>
     )
 }
