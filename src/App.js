@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Route } from 'react-router';
 
 import { AppContainer } from './style/app-styles';
@@ -12,8 +12,12 @@ import ProjectsPage from './components/ProjectsPage';
 import ContactPage from './components/ContactPage';
 
 function App() {
+  const [showBack, setShowBack] = useState(false)
+
   return (
     <AppContainer>
+      {showBack && <BackButton />}
+
       <Route exact path='/' component={Homepage} />
       <Route path='/about' component={AboutPage} />
       <Route path='/skills' component={SkillsPage} />

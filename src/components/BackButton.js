@@ -3,9 +3,11 @@ import React from 'react'
 import arrow from '../images/arrowLeft.png'
 import { BackButtonContainer } from '../style/backButton-styles'
 
-const BackButton = () => {
+const BackButton = props => {
+    const hideButton = e => props.setShowBack(false)
+
     return (
-        <BackButtonContainer>
+        <BackButtonContainer onClick={hideButton}>
             <img src={arrow} />
         </BackButtonContainer>
     )
