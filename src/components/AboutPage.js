@@ -6,7 +6,6 @@ const AboutPage = () => {
 
     return (
         <div>
-            <BackButton />
             <p>About</p>
         </div>
     )

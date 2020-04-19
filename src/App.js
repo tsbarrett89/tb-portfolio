@@ -5,6 +5,7 @@ import { AppContainer } from './style/app-styles';
 
 import Navbar from './components/Navbar';
 import Homepage from './components/Homepage';
+import BackButton from './components/BackButton';
 import AboutPage from './components/AboutPage';
 import SkillsPage from './components/SkillsPage';
 import ProjectsPage from './components/ProjectsPage';
