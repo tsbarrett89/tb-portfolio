@@ -9,6 +9,7 @@ const BackButton = props => {
     return (
         <BackButtonContainer to='/' onClick={hideButton}>
             <img src={arrow} />
+            <p>Home</p>
         </BackButtonContainer>
     )
 }
