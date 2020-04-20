@@ -8,9 +8,9 @@ export const BackButtonContainer = styled(Link) `
     text-decoration: none;
     color: white;
     font-size: 1.6rem;
-    padding: 1.5% 0 0 3%;
+    padding: 1.5% 0 0 5%;
 
     img {
-        width: 2.5%;
+        width: 2%;
     }
 `
