@@ -13,8 +13,18 @@ export const PageContainer = styled.div `
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid white;
+    border: 3px solid white;
     border-radius: 10px;
     background-color: #454545;
     opacity: 0.8;
+`
+
+export const IconContainer = styled.div `
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    img {
+        width: 5%;
+    }
 `
