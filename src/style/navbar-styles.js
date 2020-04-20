@@ -6,6 +6,7 @@ export const NavContainer = styled.nav `
     width: 60%;
     margin-bottom: 5%;
     border: 1px solid white;
+    border-radius: 10px;
     background-color: #454545;
     opacity: 0.8;
     

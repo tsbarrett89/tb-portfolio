@@ -14,3 +14,8 @@ export const BackButtonContainer = styled(Link) `
         width: 2%;
     }
 `
+
+export const HomeContainer = styled.div `
+    display: flex;
+    margin-left: 15px;
+`
