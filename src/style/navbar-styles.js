@@ -5,7 +5,7 @@ export const NavContainer = styled.nav `
     justify-content: space-around;
     width: 60%;
     margin-bottom: 5%;
-    border: 1px solid white;
+    border: 3px solid white;
     border-radius: 10px;
     background-color: #454545;
     opacity: 0.8;
