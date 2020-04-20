@@ -17,8 +17,4 @@ export const PageContainer = styled.div `
     border-radius: 10px;
     background-color: #454545;
     opacity: 0.8;
-    
-    img {
-        color: white;
-    }
 `
