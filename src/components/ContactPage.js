@@ -9,10 +9,12 @@ const ContactPage = () => {
     return (
         <PageContainer>
             <h2>Thomas Barrett</h2>
+            <p>tsbarrett89@gmail.com</p>
             <IconContainer>
                 <img src={linkedIcon} alt='LinkedIn Icon' />
                 <img src={githubIcon} alt='github Icon' />
             </IconContainer>
+            <p>Missoula, MT</p>
         </PageContainer>
     )
 }
