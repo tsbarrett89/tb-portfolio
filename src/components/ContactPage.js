@@ -2,7 +2,7 @@ import React from 'react';
 import linkedIcon from '../images/linkedIcon.png';
 import githubIcon from '../images/githubIcon.png';
 
-import { PageContainer, IconContainer } from '../style/app-styles';
+import { PageContainer, IconContainer } from '../style/contactPage-styles';
 
 const ContactPage = () => {
 
