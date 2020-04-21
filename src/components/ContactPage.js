@@ -2,7 +2,7 @@ import React from 'react';
 import linkedIcon from '../images/linkedIcon.png';
 import githubIcon from '../images/githubIcon.png';
 
-import { PageContainer, IconContainer } from '../style/contactPage-styles';
+import { PageContainer, IconContainer, Icons } from '../style/contactPage-styles';
 
 const ContactPage = () => {
 
@@ -11,8 +11,8 @@ const ContactPage = () => {
             <h2>Thomas Barrett</h2>
             <p>tsbarrett89@gmail.com</p>
             <IconContainer>
-                <img src={linkedIcon} alt='LinkedIn Icon' />
-                <img src={githubIcon} alt='github Icon' />
+                <Icons href='https://www.linkedin.com/in/tsbarrett89/'><img src={linkedIcon} alt='LinkedIn Icon' /></Icons>
+                <Icons href='https://github.com/tsbarrett89'><img src={githubIcon} alt='github Icon' /></Icons>
             </IconContainer>
             <p>Missoula, MT</p>
         </PageContainer>

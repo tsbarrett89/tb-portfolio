@@ -26,9 +26,13 @@ export const IconContainer = styled.div `
     width: 100%;
     display: flex;
     justify-content: center;
+`
+
+export const Icons = styled.a `
+    width: 20%;
+    text-align: center;
 
     img {
-        width: 5%;
-        margin: 0 5%;
+        width: 50%;
     }
 `
