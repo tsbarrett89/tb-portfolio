@@ -1,14 +1,24 @@
 import styled from 'styled-components';
 
 export const HomepageContainer = styled.div `
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
-`
+    color: white;
 
-export const ProfilePicture = styled.img `
-    border: 1px solid black;
-    border-radius: 50%;
-    transform: rotate(-25deg);
-    width: 15%;
+    h1 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+        margin-top: 20%;
+    }
+
+    p {
+        font-size: 1.6rem;
+        margin-top: 10%;
+    }
 `
