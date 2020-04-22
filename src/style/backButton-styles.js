@@ -1,17 +1,21 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-export const BackButtonContainer = styled(Link) `
+export const Header = styled.div `
     width: 100%;
+`
+
+export const BackButtonContainer = styled(Link) `
+    width: 10%;
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: white;
+    color: #454545;
     font-size: 1.6rem;
     padding: 1.5% 0 0 5%;
 
     img {
-        width: 2%;
+        width: 20%;
     }
 `
 

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 
 import arrow from '../images/arrowLeft.png'
-import { BackButtonContainer, HomeContainer } from '../style/backButton-styles'
+import { Header, BackButtonContainer, HomeContainer } from '../style/backButton-styles'
 
 const BackButton = props => {
     let backRef = useRef(null)
@@ -36,15 +36,17 @@ const BackButton = props => {
     const hideButton = () => props.setShowBack(false)
 
     return (
-        <BackButtonContainer to='/' onClick={hideButton}>
-            <img src={arrow} ref={el => backRef = el} />
-            <HomeContainer>
-                <p ref={el => hRef = el}>H</p>
-                <p ref={el => oRef = el}>o</p>
-                <p ref={el => mRef = el}>m</p>
-                <p ref={el => eRef = el}>e</p>
-            </HomeContainer>
-        </BackButtonContainer>
+        <Header>
+            <BackButtonContainer to='/' onClick={hideButton}>
+                <img src={arrow} ref={el => backRef = el} />
+                <HomeContainer>
+                    <p ref={el => hRef = el}>H</p>
+                    <p ref={el => oRef = el}>o</p>
+                    <p ref={el => mRef = el}>m</p>
+                    <p ref={el => eRef = el}>e</p>
+                </HomeContainer>
+            </BackButtonContainer>
+        </Header>
     )
 }
 
