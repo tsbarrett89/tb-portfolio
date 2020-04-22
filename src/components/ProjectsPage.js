@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ProjectsContainer } from '../style/projectsPage-styles'
+import { ProjectsContainer, ProjectContainer, ProjectName, ProjectDescription } from '../style/projectsPage-styles'
 
 const ProjectsPage = () => {
 
