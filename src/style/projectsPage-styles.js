@@ -22,6 +22,7 @@ export const ProjectContainer = styled.div `
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 2%;
 `
 
 export const ProjectName = styled.a `
@@ -30,7 +31,7 @@ export const ProjectName = styled.a `
     border-right: 1px solid white;
     text-decoration: none;
     color: white;
-    
+
     h4 {
         font-size: 1.6rem;
     }
