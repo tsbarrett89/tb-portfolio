@@ -1,11 +1,13 @@
 import React from 'react'
 
+import { ProjectsContainer } from '../style/projectsPage-styles'
+
 const ProjectsPage = () => {
 
     return (
-        <div>
-            <p>Projects</p>
-        </div>
+        <ProjectsContainer>
+            <h2>Projects</h2>
+        </ProjectsContainer>
     )
 }
 
