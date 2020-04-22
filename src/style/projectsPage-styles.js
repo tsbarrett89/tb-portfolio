@@ -27,14 +27,23 @@ export const ProjectContainer = styled.div `
 
 export const ProjectName = styled.a `
     width: 25%;
-    padding: 1.5%;
+    padding: 2%;
     border-right: 1px solid white;
     text-decoration: none;
     color: white;
 
+    
+
     h4 {
         font-size: 1.6rem;
+
+        &:hover {
+        transform: scale(1.1);
+        padding-left: 3.5%;
+        }
     }
+
+
 `
 
 export const ProjectDescription = styled.p `
