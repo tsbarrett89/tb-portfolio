@@ -24,11 +24,16 @@ export const ProjectContainer = styled.div `
     align-items: center;
 `
 
-export const ProjectName = styled.h4 `
+export const ProjectName = styled.a `
     width: 25%;
     padding: 1.5%;
     border-right: 1px solid white;
-    font-size: 1.6rem;
+    text-decoration: none;
+    color: white;
+    
+    h4 {
+        font-size: 1.6rem;
+    }
 `
 
 export const ProjectDescription = styled.p `
