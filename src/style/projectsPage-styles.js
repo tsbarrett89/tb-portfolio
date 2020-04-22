@@ -25,13 +25,14 @@ export const ProjectContainer = styled.div `
 `
 
 export const ProjectName = styled.h4 `
-    width: 30%;
+    width: 25%;
     padding: 1.5%;
     border-right: 1px solid white;
     font-size: 1.6rem;
 `
 
 export const ProjectDescription = styled.p `
+    width: 65%;
     padding-right: 2%;
     font-size: 1.2rem;
 `
