@@ -66,3 +66,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@media(max-width: 1440px) {
+  body {
+    background-size: auto 100%;
+  }
+}
