@@ -1,11 +1,13 @@
 import React from 'react';
 
+import { SkillsContainer } from '../style/skillsPage-styles'
+
 const SkillsPage = () => {
 
     return (
-        <div>
+        <SkillsContainer>
             <p>Skills</p>
-        </div>
+        </SkillsContainer>
     )
 }
 
