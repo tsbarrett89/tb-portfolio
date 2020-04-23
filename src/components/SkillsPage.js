@@ -6,7 +6,7 @@ const SkillsPage = () => {
 
     return (
         <SkillsContainer>
-            <p>Skills</p>
+            <h2>Skills and Experience</h2>
         </SkillsContainer>
     )
 }
