@@ -9,16 +9,34 @@ const SkillsPage = () => {
             <h2>Skills and Experience</h2>
             <ColumnsContainer>
                 <Column>
-                    <h4>Languages</h4>
+                    <ul>Languages</ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
                 </Column>
                 <Column>
-                    <h4>Libraries</h4>
+                    <ul>Libraries</ul>
+                        <li>npm</li>
+                        <li>yarn</li>
+                        <li>React</li>
+                        <li>Node.js</li>
                 </Column>
                 <Column>
-                    <h4>Frameworks</h4>
+                    <ul>Frameworks</ul>
+                        <li>Less</li>
+                        <li>Material UI</li>
+                        <li>Reactstrap</li>
+                        <li>Redux</li>
+                        <li>Express</li>
+                        <li>Knex</li>
                 </Column>
                 <Column>
-                    <h4>Team Platforms</h4>
+                    <ul>Team Platforms</ul>
+                        <li>Git/Github</li>
+                        <li>Slack</li>
+                        <li>Zoom</li>
+                        <li>Trello</li>
+                        <li>Agile</li>
                 </Column>
             </ColumnsContainer>
         </SkillsContainer>
