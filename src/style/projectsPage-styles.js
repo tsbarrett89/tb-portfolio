@@ -53,9 +53,11 @@ export const ProjectName = styled.a `
     }
 
     @media(max-width: 500px){
+        width: 75%;
         border-right: none;
         border-bottom: 1px solid white;
         margin-bottom: 3%;
+        text-align: center;
     }
 `
 
