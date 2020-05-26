@@ -1,15 +1,13 @@
 import styled from 'styled-components'
 
 export const PageContainer = styled.div `
-    width: 30%;
+    width: 100%;
+    background-color: #b4acc4;
     min-height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: 3px solid white;
-    border-radius: 10px;
-    background-color: #454545;
     opacity: 0.8;
     color: white;
 
@@ -23,7 +21,7 @@ export const PageContainer = styled.div `
 `
 
 export const IconContainer = styled.div `
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
 `

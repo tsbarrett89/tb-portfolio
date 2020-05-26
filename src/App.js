@@ -16,15 +16,12 @@ function App() {
 
   return (
     <AppContainer>
-      {showBack && <BackButton setShowBack={setShowBack} />}
-
-      <Route exact path='/' component={Homepage} />
-      <Route path='/about' component={AboutPage} />
-      <Route path='/skills' component={SkillsPage} />
-      <Route path='/projects' component={ProjectsPage} />
-      <Route path='/contact' component={ContactPage} />
-      
-      <Navbar setShowBack={setShowBack} />
+      <Homepage />
+      <Navbar />
+      <AboutPage />
+      <SkillsPage />
+      <ProjectsPage />
+      <ContactPage />
     </AppContainer>
   );
 }

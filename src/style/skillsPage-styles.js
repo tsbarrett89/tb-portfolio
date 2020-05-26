@@ -1,15 +1,14 @@
 import styled from 'styled-components'
 
 export const SkillsContainer = styled.div `
-    width: 60%;
-    background-color: #454545;
+    width: 100%;
+    background-color: #ccd5ec;
     opacity: 0.8;
-    border: 3px solid white;
-    border-radius: 10px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
+    color: black;
 
     h2 {
         font-size: 2.5rem;

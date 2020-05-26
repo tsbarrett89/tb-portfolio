@@ -1,14 +1,12 @@
 import styled from 'styled-components'
 
 export const ProjectsContainer = styled.div `
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #454545;
     opacity: 0.8;
-    border: 3px solid white;
-    border-radius: 10px;
     color: white;
 
     h2 {

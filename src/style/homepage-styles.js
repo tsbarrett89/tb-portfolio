@@ -4,7 +4,7 @@ export const HomepageContainer = styled.div `
     min-height: 60vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     color: white;
 

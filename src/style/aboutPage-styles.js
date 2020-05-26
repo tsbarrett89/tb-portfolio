@@ -1,15 +1,13 @@
 import styled from 'styled-components'
 
 export const AboutContainer = styled.div `
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #454545;
+    background-color: #8f96b6;
     opacity: 0.8;
     color: white;
-    border: 3px solid white;
-    border-radius: 10px;
 
     h2 {
         font-size: 2.2rem;

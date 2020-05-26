@@ -7,7 +7,7 @@ export const NavContainer = styled.nav `
     margin-bottom: 5%;
     border: 3px solid white;
     border-radius: 10px;
-    background-color: #454545;
+    background-color: #a5b3da;
     opacity: 0.8;
     
     a {

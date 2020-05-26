@@ -56,20 +56,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('images/background.jpg');
+  background-color: #68697d;
   background-size: 100%;
-  overflow: hidden;
   font-family: 'Josefin Sans', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-
-@media(max-width: 1440px) {
-  body {
-    background-size: auto 100%;
-  }
 }
