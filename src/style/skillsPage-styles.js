@@ -21,6 +21,10 @@ export const ColumnsContainer = styled.div `
     display: flex;
     justify-content: space-around;
     margin: 0 5% 3% 8%;
+
+    @media(max-width: 500px){
+        flex-wrap: wrap;
+    }
 `
 
 export const Column = styled.div `
@@ -36,5 +40,10 @@ export const Column = styled.div `
 
     li {
         margin-bottom: 1.5%;
+    }
+
+    @media(max-width: 500px){
+        width: 40%;
+        margin-bottom: 3%;
     }
 `

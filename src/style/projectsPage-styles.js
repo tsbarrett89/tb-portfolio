@@ -13,14 +13,25 @@ export const ProjectsContainer = styled.div `
         font-size: 2.5rem;
         margin: 3% auto;
     }
+
+    @media(max-width: 500px){
+        h2{
+            margin: 6% auto;
+        }
+    }
 `
 
 export const ProjectContainer = styled.div `
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2%;
+
+    @media(max-width: 500px){
+        flex-direction: column;
+        margin-bottom: 4%;
+    }
 `
 
 export const ProjectName = styled.a `
@@ -41,11 +52,19 @@ export const ProjectName = styled.a `
         }
     }
 
-
+    @media(max-width: 500px){
+        border-right: none;
+        border-bottom: 1px solid white;
+        margin-bottom: 3%;
+    }
 `
 
 export const ProjectDescription = styled.p `
     width: 65%;
     padding-right: 2%;
     font-size: 1.2rem;
+
+    @media(max-width: 500px){
+        width: 90%;
+    }
 `

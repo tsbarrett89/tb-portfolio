@@ -59,6 +59,7 @@ body {
   background-color: #68697d;
   background-size: 100%;
   font-family: 'Josefin Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 code {

@@ -15,6 +15,11 @@ export const NavContainer = styled.nav `
         font-size: 0.8rem;
         margin-right: 2%;
     }
+    
+    @media (max-width: 500px){
+        position: static;
+        justify-content: space-around;
+    }
 `
 
 export const NavContainerColumn = styled.nav `
@@ -25,6 +30,10 @@ export const NavContainerColumn = styled.nav `
     flex-direction: column;
     align-items: flex-end;
     padding-right: 3%;
+
+    @media (max-width: 500px){
+        position: static;
+    }
 
     a {
         text-decoration: none;

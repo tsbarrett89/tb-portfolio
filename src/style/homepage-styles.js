@@ -22,4 +22,9 @@ export const HomepageContainer = styled.div `
         font-size: 1.6rem;
         margin-top: 10%;
     }
+
+    @media(max-width: 500px) {
+        width: 80%;
+        text-align: center;
+    }
 `
