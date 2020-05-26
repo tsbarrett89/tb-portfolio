@@ -8,7 +8,7 @@ const Homepage = () => {
         <HomepageContainer id="home">
             <h1>Thomas Barrett</h1>
             <h3>Full Stack Web Developer</h3>
-            <p>Currently a team Lead with Lambda School</p>
+            <p>Currently a Team Lead with Lambda School</p>
         </HomepageContainer>
     )
 }
