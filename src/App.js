@@ -16,8 +16,8 @@ function App() {
 
   return (
     <AppContainer>
-      <Homepage />
       <Navbar />
+      <Homepage />
       <AboutPage />
       <SkillsPage />
       <ProjectsPage />

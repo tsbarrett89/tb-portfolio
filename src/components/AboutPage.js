@@ -5,7 +5,7 @@ import { AboutContainer } from '../style/aboutPage-styles'
 const AboutPage = () => {
 
     return (
-        <AboutContainer>
+        <AboutContainer id="about">
             <h2>About Me</h2>
             <p>I am a husband and father of four living in beautiful Missoula, MT. My interest in computer coding started years ago while I was searching for a career but I did not decide to make a concerted effort to learn until about a year ago. During the summer of 2019 I heard about Lambda School and was grateful to find a learning environment that could provide me necessary structure and fit my financial needs.</p>
             <p>I became a Full Stack Developer in four months, but there is so much to continue learning and growth opportunites present themselves daily. My study environment provided an ability to learn the latest technical skills, but also the communication, teamwork, and colloboration that allows those technical skills to produce cohesive projects.</p>

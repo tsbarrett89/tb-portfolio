@@ -5,7 +5,7 @@ import { SkillsContainer, ColumnsContainer, Column } from '../style/skillsPage-s
 const SkillsPage = () => {
 
     return (
-        <SkillsContainer>
+        <SkillsContainer id="skills">
             <h2>Skills and Experience</h2>
             <ColumnsContainer>
                 <Column>

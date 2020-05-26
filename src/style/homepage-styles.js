@@ -7,6 +7,7 @@ export const HomepageContainer = styled.div `
     justify-content: center;
     align-items: center;
     color: white;
+    margin-bottom: 4%;
 
     h1 {
         font-size: 4rem;

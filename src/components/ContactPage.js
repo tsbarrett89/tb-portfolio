@@ -7,7 +7,7 @@ import { PageContainer, IconContainer, Icons } from '../style/contactPage-styles
 const ContactPage = () => {
 
     return (
-        <PageContainer>
+        <PageContainer id="contact">
             <h2>Thomas Barrett</h2>
             <p>tsbarrett89@gmail.com</p>
             <IconContainer>

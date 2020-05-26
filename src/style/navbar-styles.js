@@ -1,19 +1,35 @@
 import styled from 'styled-components';
 
 export const NavContainer = styled.nav `
+    position: fixed;
     display: flex;
-    justify-content: space-around;
-    width: 60%;
-    margin-bottom: 5%;
-    border: 3px solid white;
-    border-radius: 10px;
-    background-color: #a5b3da;
-    opacity: 0.8;
-    
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 5%;
+    z-index: 1;
+
     a {
         text-decoration: none;
         color: white;
         padding: 3% 0;
-        font-size: 1.8rem;
+        font-size: 0.8rem;
+        margin-right: 2%;
+    }
+`
+
+export const NavContainerColumn = styled.nav `
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 3%;
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 0.8rem;
+        margin-top: 2%;
     }
 `

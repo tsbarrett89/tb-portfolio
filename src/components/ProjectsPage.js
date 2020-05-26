@@ -5,7 +5,7 @@ import { ProjectsContainer, ProjectContainer, ProjectName, ProjectDescription } 
 const ProjectsPage = () => {
 
     return (
-        <ProjectsContainer>
+        <ProjectsContainer id="projects">
             <h2>Projects</h2>
             <ProjectContainer>
                 <ProjectName href='https://save-the-animals-site.netlify.app/'><h4>Save the Animals</h4></ProjectName>

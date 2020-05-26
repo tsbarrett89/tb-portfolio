@@ -20,11 +20,11 @@ export const ColumnsContainer = styled.div `
     width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 3%;
+    margin: 0 5% 3% 8%;
 `
 
 export const Column = styled.div `
-    width: 22%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     margin-left: 3%;
