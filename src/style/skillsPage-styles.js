@@ -4,7 +4,6 @@ export const SkillsContainer = styled.div `
     width: 100%;
     background-color: #ccd5ec;
     opacity: 0.8;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,6 +12,8 @@ export const SkillsContainer = styled.div `
     h2 {
         font-size: 2.5rem;
         margin: 3% auto;
+        width: 100%;
+        text-align: center;
     }
 `
 
