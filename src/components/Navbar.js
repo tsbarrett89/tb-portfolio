@@ -22,6 +22,7 @@ const Navbar = () => {
                 <a href='#skills'>Skills</a>
                 <a href='#projects'>Projects</a>
                 <a href='#contact'>Contact</a>
+                <a href="https://dev.to/tsbarrett89">devBlog</a>
             </NavContainer>
         )} else {
             return (

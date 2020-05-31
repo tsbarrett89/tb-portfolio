@@ -69,4 +69,13 @@ export const ProjectDescription = styled.p `
     @media(max-width: 500px){
         width: 90%;
     }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #ccd5ec;
+    }
 `
